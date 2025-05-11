@@ -1,12 +1,37 @@
-# 🏗️📦Mundo dos Blocos - Inteligência Artificial
-- 1º Trabalho Prático para a disciplina de Inteligência Artificial
-- **Professor:** Edjard Mota
-- **Integrantes:**
+# 🏗️🧱 Mundo dos Blocos - Inteligência Artificial
+**📘 1º Trabalho Prático da disciplina de Inteligência Artificial**
+
+**👨‍🏫 Professor: Edjard Mota**
+
+**👥 Integrantes**
   - Daniel Silveira Gonzalez
   - Júlio Melo Campos
   - Stepheson Custódio
 
 ## ℹ️ Descrição
-O projeto trata-se de um planejador para empilhar blocos de diferente dimensões no contexto do Mundo dos Blocos, onde os blocos podem ser movidos de posição e empilhados um sobre o outro seguindo alguns critérios. A representação é feita através de um conjunto de predicados, para definir o estado inicial do mundo, as ações possíveis e os objetivos que devem ser alcançados.
+Este projeto consiste em um **planejador de ações** para empilhar blocos de diferentes dimensões no contexto do **Mundo dos Blocos**. Nesse cenário, os blocos podem ser movidos de posição e empilhados uns sobre os outros seguindo critérios específicos.
+
+A representação do mundo é feita por meio de um conjunto de **predicados**, que definem:
+- O estado inicial do mundo;
+- As ações possíveis;
+- Os objetivos a serem alcançados.
+
+---
+
+## 🧠 Conceitos Aplicados
+
+- Representação de estados com predicados;
+- Planejamento baseado em IA simbólica;
+- Manipulação de estruturas de dados para resolver problemas de busca.
+
+---
+
+## 🚀 Como executar
+
+_Instruções:_
+
+```bash
+# Exemplo
+python mundo_dos_blocos.py
 
    
