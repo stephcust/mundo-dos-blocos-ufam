@@ -1,20 +1,12 @@
-# Mundo dos Blocos
-- Planejador para empilhar blocos de diferente dimensões
+# 🏗️📦Mundo dos Blocos - Inteligência Artificial
+- 1º Trabalho Prático para a disciplina de Inteligência Artificial
+- **Professor:** Edjard Mota
+- **Integrantes:**
+  - Daniel Silveira Gonzalez
+  - Júlio Melo Campos
+  - Stepheson Custódio
 
-## Representação do Conhecimento
-
-### 1. Descrição do problema
-
-### 2. Definição de conceitos
-
-### 3. 
-
-## Raciocínio e Planejamento Automático
-
-### 4. Definição de Restrições
-   - 4.1.
-   - 4.2.
-
-### 5.
+## ℹ️ Descrição
+O projeto trata-se de um planejador para empilhar blocos de diferente dimensões no contexto do Mundo dos Blocos, onde os blocos podem ser movidos de posição e empilhados um sobre o outro seguinto alguns critérios. A representação é feita através de um conjunto de predicados, para definir o estado inicial do mundo, as ações possíveis e os objetivos que devem ser alcançados.
 
    
