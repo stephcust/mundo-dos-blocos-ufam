@@ -32,6 +32,7 @@ _Instruções:_
 
 ```bash
 # Exemplo
-python mundo_dos_blocos.py
+Para executar cada cenário descrito pelo livro do Bratko e no arquivo T1_MundoDosBlocos.pdf, basta colocar no terminal:
 
+executar_busca(situacao1,meta_a).
    
