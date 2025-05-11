@@ -11,7 +11,7 @@
 
 ## Raciocínio e Planejamento Automático
 
-### 4.
+### 4. Definição de Restrições
    - 4.1.
    - 4.2.
 
