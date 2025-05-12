@@ -15,7 +15,6 @@ A representação do mundo é feita por meio de um conjunto de **predicados**, q
 - O estado inicial do mundo;
 - As ações possíveis;
 - Os objetivos a serem alcançados.
-- 
 ---
 
 ## 🧠 Conceitos Aplicados
