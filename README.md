@@ -45,10 +45,18 @@ OBS: Todos os casos já estão comentados no arquivo a partir da linha 392.
 # mundo_dos_blocos(estadoInicial, meta).
 
 # Exemplo: Testar com estado1 e meta_c
+# Estado Inicial
 #                d d d
 #          c c   a   b
 #          - - - - - -
 # posição  1 2 3 4 5 6
+
+# Meta
+#          d d d
+#          c c a     b
+#          - - - - - -
+# posição  1 2 3 4 5 6
+
 mundo_dos_blocos(estado1, meta_c).
 ```
    
