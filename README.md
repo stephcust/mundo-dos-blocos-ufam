@@ -17,6 +17,9 @@ A representação do mundo é feita por meio de um conjunto de **predicados**, q
 - Os objetivos a serem alcançados.
 
 ---
+## </> Desenvolvimento do Projeto
+
+---
 
 ## 🧠 Conceitos Aplicados
 
