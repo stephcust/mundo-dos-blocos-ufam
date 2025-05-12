@@ -34,11 +34,11 @@ Para executar cada cenário descrito pelo livro do Bratko e no arquivo T1_MundoD
 ```bash
 mundo_dos_blocos(estadoInicial, meta).
 
-% Exemplo: Testar com estado1 e meta_c
-%                d d d
-%          c c   a   b
-%          - - - - - -
-% place    1 2 3 4 5 6
+# Exemplo: Testar com estado1 e meta_c
+#                d d d
+#          c c   a   b
+#          - - - - - -
+# place    1 2 3 4 5 6
 mundo_dos_blocos(estado1, meta_c).
 ```
    
