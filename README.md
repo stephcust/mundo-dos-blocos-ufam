@@ -27,9 +27,9 @@ A representação do mundo é feita por meio de um conjunto de **predicados**, q
 
 ## </> Desenvolvimento do Projeto
 
-Inicialmente, foi desenvolvida a versão 1.0 do problema do Mundo dos Blocos, na qual foi utilizada uma restrição universal cuja ideia foi buscar um  de priorização dos estados a serem expandidos, permitindo que o algoritmo explore primeiro os caminhos mais promissores.
+Inicialmente, foi desenvolvida a versão 1.0 do problema do Mundo dos Blocos, na qual foi utilizada uma **restrição universal** cuja ideia foi buscar um  de priorização dos estados a serem expandidos, permitindo que o algoritmo explore primeiro os caminhos mais promissores.
 
-Contudo, essa heurística não restringe bem e resulta em uma busca de A* "aleatória" no âmbiente na reorganização dos blocos. Por isso, foi criada outra versão final na qual são utilizadas restrições estratégicas dos blocos.
+Contudo, essa heurística não restringe bem e resulta em uma busca de A* "aleatória" no âmbiente na reorganização dos blocos. Por isso, foi criada outra versão final na qual são utilizadas **restrições estratégicas dos blocos** que não impedem diretamente as ações, mas penalizam estados menos promissores, orientando o algoritmo A* a tomar decisões mais inteligentes.
 
 ---
 
