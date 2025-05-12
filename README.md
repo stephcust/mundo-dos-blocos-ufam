@@ -29,10 +29,9 @@ A representação do mundo é feita por meio de um conjunto de **predicados**, q
 ## 🚀 Como executar
 
 _Instruções:_
-
-```bash
-# Exemplo
 Para executar cada cenário descrito pelo livro do Bratko e no arquivo T1_MundoDosBlocos.pdf, basta colocar no terminal:
 
+```bash
 executar_busca(situacao1,meta_a).
+```
    
