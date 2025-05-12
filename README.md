@@ -34,7 +34,7 @@ A representação do mundo é feita por meio de um conjunto de **predicados**, q
 ## 🚀 Como executar
 
 _Instruções:_
-Para executar cada cenário descrito pelo livro do Bratko e no arquivo T1_MundoDosBlocos.pdf, basta colocar no terminal:
+Para executar cada cenário descrito pelo livro do Bratko e no arquivo T1_MundoDosBlocos.pdf, basta colocar no terminal do arquivo mundo_dos_blocosvfinal.pl::
 
 ```bash
 mundo_dos_blocos(estadoInicial, meta).
