@@ -38,7 +38,7 @@ mundo_dos_blocos(estadoInicial, meta).
 #                d d d
 #          c c   a   b
 #          - - - - - -
-# place    1 2 3 4 5 6
+# posição  1 2 3 4 5 6
 mundo_dos_blocos(estado1, meta_c).
 ```
    
