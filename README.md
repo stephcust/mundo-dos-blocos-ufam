@@ -15,10 +15,7 @@ A representação do mundo é feita por meio de um conjunto de **predicados**, q
 - O estado inicial do mundo;
 - As ações possíveis;
 - Os objetivos a serem alcançados.
-
----
-## </> Desenvolvimento do Projeto
-
+- 
 ---
 
 ## 🧠 Conceitos Aplicados
@@ -28,6 +25,11 @@ A representação do mundo é feita por meio de um conjunto de **predicados**, q
 - Manipulação de estruturas de dados para resolver problemas de busca.
 
 ---
+
+## </> Desenvolvimento do Projeto
+
+---
+
 
 ## 🚀 Como executar
 
