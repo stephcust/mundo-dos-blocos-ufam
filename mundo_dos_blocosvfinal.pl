@@ -249,7 +249,7 @@ estavel((X,Y), 3, [occupied((X,Y2)), occupied((X2,Y2))]) :-
     X2 #= X + 2.
 
 
-% ----------- HEURÍSTICAS -----------
+% HEURÍSTICAS APLICADAS
 
 % 1. Blocos fora do lugar
 h_blocos_fora_do_lugar(Estado, Metas, Valor) :-
@@ -319,20 +319,21 @@ h_blocos_isolados(Estado, Metas, Valor) :-
     ), L),
     length(L, Valor).
 
-% ----------- Função de avaliação combinada -----------
+% Função de avaliação combinada 
 
 valor_h(Estado, Metas, H) :-
     h_blocos_fora_do_lugar(Estado, Metas, H1),
-    h_distancia_manhattan(Estado, Metas, H2),
-    h_blocos_bloqueados(Estado, Metas, H3),
+    h_pilhas_intermediarias(Estado, Metas, H2),
+    h_distancia_manhattan(Estado, Metas, H3),
     h_pilha_errada(Estado, Metas, H4),
-    h_blocos_isolados(Estado, Metas, H5),
+    h_blocos_bloqueados(Estado, Metas, H5),
     h_ordem_errada(Estado, Metas, H6),
-    h_pilhas_intermediarias(Estado, Metas, H7),
+    h_blocos_isolados(Estado, Metas, H7),
+    
     % Ajuste os pesos conforme necessário
-    H is 3*H1 + 2*H2 + 4*H3 + 2*H4 + 2*H5 + 2*H6 + 1*H7.
+    H is 3*H1 + 1*H2 + 2*H3 + 2*H4 + 4*H5 + 2*H6 + 2*H7.
 
-% ----------- BUSCA A* -----------
+% Algoritmo A* 
 
 busca_a_estrela(EstadoInicial, Metas, Plano) :-
     empty_heap(HeapVazio),
@@ -374,7 +375,7 @@ estado_membro(_, []) :- fail.
 estados_iguais(A, B) :-
     msort(A, SA), msort(B, SB), SA == SB.
 
-% ----------- TESTE -----------
+% Main Mundo dos Blocos
 
 mundo_dos_blocos(EstadoInicial, Meta) :-
     call(EstadoInicial, S),
