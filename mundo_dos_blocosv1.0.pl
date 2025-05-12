@@ -11,7 +11,7 @@ bloco(d, 3).
 posicao((X, Y)) :- between(1, 6, X), between(1, 4, Y).
 
 % Estados de exemplo
-estado1([ 
+situacao([ 
     occupied((1,1)), clear((1,2)), clear((1,3)), clear((1,4)),
     occupied((2,1)), clear((2,2)), clear((2,3)), clear((2,4)),
     clear((3,1)), clear((3,2)), clear((3,3)), clear((3,4)),
@@ -22,7 +22,7 @@ estado1([
     occupied((5,0)), occupied((6,0)),
     on(a,(4,1)), on(b,(6,1)), on(c,(1,1)), on(d,(4,2))]).
 
-destino1([on(a,(5,1)), on(b,(6,1)), on(c,(3,1)), on(d,(4,2))]).
+meta([on(a,(5,1)), on(b,(6,1)), on(c,(3,1)), on(d,(4,2))]).
 
 % Movimentos
 acao(mover1(Bloco, De, Para)) :- bloco(Bloco, 1), posicao(De), posicao(Para), De \== Para.
@@ -178,7 +178,7 @@ avaliacao_heuristica(Estado, Metas, H) :-
 
 % Teste de busca
 mundo_dos_blocos :-
-    estado1(Estado), destino1(Destino),
+    situacao(Estado), meta(Destino),
     statistics(runtime, [Inicio|_]),
     (busca_astar(Estado, Destino, Plano) ->
         statistics(runtime, [Fim|_]),
