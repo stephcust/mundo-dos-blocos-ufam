@@ -32,6 +32,7 @@ _Instruções:_
 Para executar cada cenário descrito pelo livro do Bratko e no arquivo T1_MundoDosBlocos.pdf, basta colocar no terminal:
 
 ```bash
-executar_busca(situacao1,meta_a).
+% Testar com estado2 e meta_c
+mundo_dos_blocos(estado2, meta_c).
 ```
    
