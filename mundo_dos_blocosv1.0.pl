@@ -177,7 +177,7 @@ avaliacao_heuristica(Estado, Metas, H) :-
     H is H1 + L.
 
 % Teste de busca
-executar_busca :-
+mundo_dos_blocos :-
     estado1(Estado), destino1(Destino),
     statistics(runtime, [Inicio|_]),
     (busca_astar(Estado, Destino, Plano) ->
