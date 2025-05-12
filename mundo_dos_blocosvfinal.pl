@@ -389,34 +389,34 @@ mundo_dos_blocos(EstadoInicial, Meta) :-
                [EstadoInicial, Meta])
     ).
 
-% Exemplos de uso com os nomes em português:
+% Exemplos dos casos descritos 
 
-% Testar com estado1 para estado2
+% Testar o caso estado1 para estado2
 % ?- mundo_dos_blocos(estado1, meta_i2).
 
-% Testar com estado1 e meta_a
+% Testar o caso estado1 para meta_a
 % ?- mundo_dos_blocos(estado1, meta_a).
 
-% Testar com estado1 e meta_b
+% Testar o caso estado1 para meta_b
 % ?- mundo_dos_blocos(estado1, meta_b).
 
-% Testar com estado1 e meta_c
+% Testar o caso estado1 para meta_c
 % ?- mundo_dos_blocos(estado1, meta_c).
 
-% Testar com estado2 e meta_a
+% Testar o caso estado2 para meta_a
 % ?- mundo_dos_blocos(estado2, meta_a).
 
-% Testar com estado2 e meta_b
+% Testar o caso estado2 para meta_b
 % ?- mundo_dos_blocos(estado2, meta_b).
 
-% Testar com estado2 e meta_c
+% Testar o caso estado2 para meta_c
 % ?- mundo_dos_blocos(estado2, meta_c).
 
-% Testar com situacao2 e meta_situacao2
+% Testar o caso situacao2 para meta_situacao2
 % ?- mundo_dos_blocos(situacao2, meta_situacao2).
 
-% Testar com situacao3e4 e meta_situacao3
+% Testar o caso situacao3e4 para meta_situacao3
 % ?- mundo_dos_blocos(situacao3e4, meta_situacao3).
 
-% Testar com situacao3e4 e meta_situacao4
+% Testar o caso situacao3e4 para meta_situacao4
 % ?- mundo_dos_blocos(situacao3e4, meta_situacao4).
