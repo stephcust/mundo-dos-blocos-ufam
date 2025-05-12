@@ -37,6 +37,7 @@ acao(mover3(Bloco, De, Para)) :- bloco(Bloco, 3), posicao(De), posicao(Para), De
 % Se a nova posição está livre.
 % Se a nova posição é estável.
 
+% Para bloco de tamanho 1
 pode(mover1(Bloco, De, Para), [on(Bloco,De)|Condicoes]) :-
     bloco(Bloco, 1), posicao(Para), estavel(Para, 1, ListaOc), posicao(De), De \== Para,
     \+ acima_de_si(De,1,ListaOc),
