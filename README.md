@@ -42,7 +42,7 @@ Para executar cada cenário descrito pelo livro do Bratko e no arquivo T1_MundoD
 
 OBS: Todos os casos já estão comentados no arquivo a partir da linha 392. 
 ```bash
-mundo_dos_blocos(estadoInicial, meta).
+# mundo_dos_blocos(estadoInicial, meta).
 
 # Exemplo: Testar com estado1 e meta_c
 #                d d d
