@@ -32,10 +32,13 @@ _Instruções:_
 Para executar cada cenário descrito pelo livro do Bratko e no arquivo T1_MundoDosBlocos.pdf, basta colocar no terminal:
 
 ```bash
-
 mundo_dos_blocos(estadoInicial, meta).
 
-% Exemplo: Testar com estado2 e meta_c
-mundo_dos_blocos(estado2, meta_c).
+% Exemplo: Testar com estado1 e meta_c
+%                d d d
+%          c c   a   b
+%          - - - - - -
+% place    1 2 3 4 5 6
+mundo_dos_blocos(estado1, meta_c).
 ```
    
